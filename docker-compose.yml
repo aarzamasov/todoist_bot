@@ -1,0 +1,7 @@
+services:
+  todoist_bot:
+    platform: linux/amd64  # Эмуляция
+    image: dzarlax/todoist_bot
+    container_name: todoist
+    env_file:
+      - ./env.env
